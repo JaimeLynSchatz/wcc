@@ -43,3 +43,13 @@
     </div>
     </body>
   <html>
+  <!--Here's our final code for the fixed layout practice: http://codepen.io/wcc/pen/zCfHp
+
+And here are the three steps we took to transform the original fixed version into this fluid version:
+
+Benefits of the min-width property
+Setting a min-width on your container can prevent your layout from shrinking so much that things start to overlap and look funny.
+We changed the width of the container from a static 960px to a dynamic 85%. We also threw in the min-width property and set it to 700px. This means that when the container reaches 700px, it won't shrink anymore. This is handy, because the menu options started to overlap in when it was any narrower.
+We also switched the width on the aside and section (i.e the columns) from a fixed pixel value to a fluid percentage.
+On the columns we also converted the margins to percentages but left the padding as pixels. Why? Because we wanted the space in between the elements be flexible but the space inside the elements to be more static.
+We set the width of the kitten image to be 100% so it'd always fit nicely in the left column. We didn't give it a height, because it will automatically resize itself in proportion to the width.-->
