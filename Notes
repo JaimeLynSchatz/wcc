@@ -1,0 +1,13 @@
+Notes
+
+While every element is either block or inline by default, you can actually override this with the CSS display property.
+
+1
+2
+3
+     div {
+          display:inline; /* Tricky! We just made a div an inline element */
+     }
+Also, in addition to "inline" and "block", there's a display property called "inline-block" that will allow you to do block-like stuff to inline elements, such as add top and bottom margins.
+
+File the above two FYI's under "good to know down the road"; we won't need these tricks in this particular course.
